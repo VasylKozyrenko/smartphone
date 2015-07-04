@@ -20,7 +20,7 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('/phone1', function() {
+Route::get('/phone', function() {
     echo app('Smartphone');
 
 });

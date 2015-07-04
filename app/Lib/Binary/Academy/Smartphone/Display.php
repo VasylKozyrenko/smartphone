@@ -26,7 +26,7 @@ class Display
         $this->width = $width;
     }
 
-    public function toString()
+    public function __toString()
     {
         return sprintf('%dx%d display', $this->height, $this->width);
     }

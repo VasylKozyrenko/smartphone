@@ -24,7 +24,6 @@ class Camera
      */
     public function __toString()
     {
-        return '123';
-        //return sprintf('%d megapixels camera', $this->resolution);
+        return sprintf('%d megapixels camera', $this->resolution);
     }
 }
